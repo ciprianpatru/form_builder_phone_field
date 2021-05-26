@@ -162,9 +162,11 @@ class FormBuilderPhoneField extends FormBuilderField<String> {
                       enabled: state.enabled,
                       style: style,
                       focusNode: state.effectiveFocusNode,
-                      decoration: InputDecoration(
+                      decoration: InputDecoration(                        
                         border: InputBorder.none,
                         enabledBorder: InputBorder.none,
+                        focusedBorder: InputBorder.none,
+                        focusedErrorBorder: InputBorder.none,
                         errorBorder: InputBorder.none,
                         hintText: decoration.hintText,
                         hintStyle: decoration.hintStyle,
